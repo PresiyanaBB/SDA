@@ -47,8 +47,9 @@ int fibonacci(int n) {
 }
 
 int main()
-{
-    //fact => n*(n-1)*(n-2)*...*1 => for every n, fact() will be called 1 time => 1*1*1*1...*1 (n times) => O(N)
+{}
 
-    //fibonacci => 1 1 2 3 5 8 13 => for every n, fibonacci() will be called 2 times (for n-1 and n-2) => 2*2*2..*2 (n times) => O(2^N)
-}
+//fact => n*(n-1)*(n-2)*...*1 => for every n, fact() will be called 1 time => 1*1*1*1...*1 (n times) => O(N)
+//fibonacci => 1 1 2 3 5 8 13 => for every n, fibonacci() will be called 2 times (for n-1 and n-2) => 2*2*2..*2 (n times) => O(2^N)
+//powerSet => 2^N
+//permutation => N!
