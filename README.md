@@ -1,9 +1,8 @@
 # Data structures and algorithms
 Data structures and algorithms in uni using c++. Calculating complexity, useful algorithms and more
 
-<details>
-           <summary>powerSet complexity tree:</summary>
-          <div> f(-1)
+## powerSet complexity tree: ##
+f(-1)
  1. f(0)
      1. f(1)
          1. f(2)
@@ -24,6 +23,5 @@ Data structures and algorithms in uni using c++. Calculating complexity, useful 
          1. **f(3)**
  3. f(2) incremented original
      1. **f(3)**
-          </div>
-</details>
+
 
