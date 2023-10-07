@@ -5,4 +5,4 @@ Data structures and algorithms in uni using c++. Calculating complexity, useful 
 * with recursion draw tree with func calls
 * f(0) -> f(1) -> f(2) , f(1) -> f(2) ...
 
-  ----
+
