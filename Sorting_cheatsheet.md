@@ -29,7 +29,7 @@
 ## 5. quickSort ## 
  - stable : no
  - in-place : yes
- - complexity (time) : O(n*logn)
+ - complexity (time) : O(n^2)
  - complexity (space/memory) : O(logn)
 
 
