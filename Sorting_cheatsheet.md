@@ -8,7 +8,7 @@
 ## 2. countingSort ##
  - stable : yes
  - in-place : no
- - complexity (time) : O(n+k)  //numbers count + max number
+ - complexity (time) : O(n+k)     //numbers count + max number
  - complexity (space/memory) : O(k)
 
 
