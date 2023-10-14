@@ -41,7 +41,7 @@
 
 - - - -
 
-#Questions from quiz#
+# Questions from quiz#
 1. Минимална сложност за сортиране на данни чрез сравнение
    - n*logn
 2. Сложността на partition функцията в quick sort
