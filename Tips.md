@@ -19,8 +19,8 @@ bool pred(int a, int b)
 
 #### 3. basic c++ structures ####
 ```c++
-pair<T,T> p;
-vector<T> v;
+pair<int,int> p;
+vector<int> v;
 string s;
 ```
 
