@@ -29,7 +29,7 @@
 ## 5. quickSort ## 
  - stable : no
  - in-place : yes
- - complexity (time) : O(n^2)
+ - complexity (time) : O(n^2)  //avegare case O(n*logn)
  - complexity (space/memory) : O(logn)
 
 
@@ -38,3 +38,11 @@
  - in-place : yes
  - complexity (time) : O(n^2)
  - complexity (space/memory) : O(1)
+
+- - - -
+
+#Questions from quiz#
+1. Минимална сложност за сортиране на данни чрез сравнение
+   - n*logn
+2. Сложността на partition функцията в quick sort
+    - n
