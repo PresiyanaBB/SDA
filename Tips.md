@@ -1,11 +1,11 @@
 #### 1. faster cin operation ####
-```
+```c++
 std::ios_base::sync_with_stdio(false);
 std::cin.tie(nullptr);
 ```
 
 #### 2. use stable_sort instead of sort ####
-```
+```c++
 stable_sort(arr,arr+size,predicate);
 //predicate example for func
 //predicate must be bool function that receives 2 of the elements of the array and returns true if first is less than second
@@ -18,7 +18,7 @@ bool pred(int a, int b)
 ```
 
 #### 3. basic c++ structures ####
-```
+```c++
 pair<T,T> p;
 vector<T> v;
 string s;
@@ -32,7 +32,11 @@ epsilon = 0.00000001;
 #### 5. use only '\n' and not endl ####
 
 #### 6. static arrays are better for this course ####
-`int arr[10]{} is better than int* arr = new int[n]{} `
+```c++
+int arr[10]{} is better than int* arr = new int[n]{}
+```
 
 #### 7. check if number is even ####
-`!(num & 1)  is better than  !(num % 2)   // both say it is even`
+```c++
+!(num & 1)  is better than  !(num % 2)   // both say it is even
+```
