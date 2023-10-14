@@ -1,39 +1,39 @@
-#### bubbleSort
+#### bubbleSort #### 
  - stable : yes
  - in-place : yes
  - complexity (time) : O(n^2)
  - complexity (space/memory) : O(1)
 
 
-#### countingSort
+#### countingSort #### 
  - stable : yes
  - in-place : no
  - complexity (time) : O(n+k)  //numbers count + max number
  - complexity (space/memory) : O(k)
 
 
-#### insertionSort
+#### insertionSort #### 
  - stable : yes
  - in-place : yes
  - complexity (time) : O(n^2)
  - complexity (space/memory) : O(1)
 
 
-#### mergeSort
+#### mergeSort #### 
  - stable : yes
  - in-place : no
  - complexity (time) : O(n*logn)
  - complexity (space/memory) : O(n)
 
 
-#### quickSort
+#### quickSort #### 
  - stable : no
  - in-place : yes
  - complexity (time) : O(n*logn)
  - complexity (space/memory) : O(logn)
 
 
-#### selectionSort
+#### selectionSort #### 
  - stable : no
  - in-place : yes
  - complexity (time) : O(n^2)
