@@ -7,7 +7,7 @@ std::cin.tie(nullptr);
 #### 2. Use stable_sort instead of sort ####
 ```c++
 stable_sort(arr,arr+size,predicate);
-//predicate example for func
+//predicate example for sorting specification
 //predicate must be bool function that receives 2 of the elements of the array and returns true if first is less than second
 bool pred(int a, int b)
 {
