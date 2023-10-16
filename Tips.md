@@ -15,6 +15,10 @@ bool predicate(int a, int b)
         return true;
     return false;
 }
+
+//sorting vector
+vector<int> v;
+stable_sort(v.begin(),v.end());
 ```
 
 #### 3. Basic c++ structures ####
