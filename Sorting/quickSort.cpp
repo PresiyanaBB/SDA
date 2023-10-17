@@ -40,7 +40,7 @@ void quickSort(int arr[], int start, int end)
     quickSort(arr, p + 1, end);
 }
 
-//choose pivot element - middle between first, mid,last element in array
+//choose pivot element - last element in array
 //find the first bigger number from the left and the first smaller number from the right and swap them
 //do the same thing until index of the bigger is after index of the smaller
 //then the pivot is the right place and we choose another pivot from the left array(and one from the right)
