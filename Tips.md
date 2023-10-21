@@ -40,6 +40,7 @@ epsilon = 0.00000001;
 int arr[10]{} is better than int* arr = new int[n]{}
 
 //example for global arr
+//use 1en, for n being max number 10 on some power
 const size_t MAX_SIZE = 1e5;
 size_t arr[MAX_SIZE]{};
 std::vector<size_t> v(MAX_SIZE);
