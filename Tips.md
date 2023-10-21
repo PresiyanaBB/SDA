@@ -43,7 +43,7 @@ int arr[10]{} is better than int* arr = new int[n]{}
 //use 1en, for n being max number 10 on some power
 const size_t MAX_SIZE = 1e5;
 size_t arr[MAX_SIZE]{};
-std::vector<size_t> v(MAX_SIZE);
+vector<size_t> v(MAX_SIZE);
 ```
 
 #### 7. Check if number is even ####
