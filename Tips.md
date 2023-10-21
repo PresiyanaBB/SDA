@@ -38,6 +38,11 @@ epsilon = 0.00000001;
 #### 6. Static arrays are better for this course ####
 ```c++
 int arr[10]{} is better than int* arr = new int[n]{}
+
+//example for global arr
+const size_t MAX_SIZE = 1e5;
+size_t arr[MAX_SIZE]{};
+std::vector<size_t> v(MAX_SIZE);
 ```
 
 #### 7. Check if number is even ####
