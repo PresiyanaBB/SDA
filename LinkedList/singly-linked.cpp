@@ -17,44 +17,6 @@ private:
     Node* head = nullptr;
     Node* tail = nullptr;
 public:
-    SinglyLL() = default;
-    
-    void freeMemory() {
-        Node* i = head;
-        while(i != nullptr) {
-            Node* next = i->next;
-            delete i;
-            i = next;
-        }
-
-        head = nullptr;
-        tail = nullptr;
-    }
-
-    ~SinglyLL() {
-        freeMemory();
-    }
-
-    void copyLinkedList(const SinglyLL& rhs) {
-        Node* i = rhs.head;
-        while(i != nullptr) {
-            push_back(i->data);
-            i = i->next;
-        }
-    }
-
-    SinglyLL& operator=(const SinglyLL& rhs) {
-        if (this != &rhs) {
-            freeMemory();
-            copyLinkedList(rhs);
-        }
-        return *this;
-    }
-
-    SinglyLL(const SinglyLL& rhs) {
-        copyLinkedList(rhs);
-    }
-
     void push_front(int number) {
         Node* newHead = new Node(number, head);
         head = newHead;
@@ -208,11 +170,44 @@ public:
     
 };
 
-int main() {
-    SinglyLL l;
-    l.insert(0, 0);
-    l.insert(1, 1);
-    l.insert(2, 2);
-    l.insert(3, 3);
-    l.print();
-}
+
+//BIG 4
+
+/* 
+SinglyLL() = default;
+
+    void freeMemory() {
+        Node* i = head;
+        while(i != nullptr) {
+            Node* next = i->next;
+            delete i;
+            i = next;
+        }
+
+        head = nullptr;
+        tail = nullptr;
+    }
+
+    ~SinglyLL() {
+        freeMemory();
+    }
+
+    void copyLinkedList(const SinglyLL& rhs) {
+        Node* i = rhs.head;
+        while(i != nullptr) {
+            push_back(i->data);
+            i = i->next;
+        }
+    }
+
+    SinglyLL& operator=(const SinglyLL& rhs) {
+        if (this != &rhs) {
+            freeMemory();
+            copyLinkedList(rhs);
+        }
+        return *this;
+    }
+
+    SinglyLL(const SinglyLL& rhs) {
+        copyLinkedList(rhs);
+    } */
