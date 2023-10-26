@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 
 class Node {
 public:
@@ -47,7 +45,7 @@ public:
         int ListLen = 0;
 
         if (head == NULL) {
-            cout << "List empty." << endl;
+            std::cout << "List empty.\n";
             return;
         }
 
@@ -57,7 +55,7 @@ public:
         }
 
         if (ListLen < nodeOffset) {
-            cout << "Index out of range" << endl;
+            std::cout << "Index out of range\n";
             return;
         }
 
@@ -83,16 +81,13 @@ public:
         Node* temp = head;
 
         if (head == NULL) {
-            cout << "List empty" << endl;
+            std::cout << "List empty\n";
             return;
         }
 
         while (temp != NULL) {
-            cout << temp->data << " ";
+            std::cout << temp->data << " ";
             temp = temp->next;
         }
     }
 };
-
-
-int main(){}
